@@ -23,8 +23,4 @@ def frequencies(items):
         for j in range(items.count(i)):
             items.remove(i)
 
-
-
     return frequencies
-
-print(frequencies(['a', 'a', 'b', 'b', 'b', 'c']))
